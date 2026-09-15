@@ -1,0 +1,47 @@
+Apache Kafka ----> Done
+
+Apache Airflow ---> used to orchestrate the tasks basically how things are going to work.
+
+- basically tells the dependency of the tasks that which task will happen when and which task should be done done which task.
+
+steps: 
+Discovering of Problem ----> Data Collection ---> Data Cleaning --> .........
+
+DAG (Directed Acyclic Graph)
+A <---> B ---X
+A -----> B 
+A----> B ---> C ---> D 
+Its basically a collection of tasks and dependencies.
+
+Task , dependency
+
+A single of work is called task.
+
+Airflow Architecture --> 
+1) DAG ---> Workflow
+2) task ---> individual work
+3) Scheduler --> when the task is going to be started
+4) Executor --> executes the work
+5) Web UI --> tells what is happening
+
+PRACTICAL
+Types of Operators:
+1) PythonOperator: 
+2) BashOperator: basically its used to use the bash commands
+
+Dependency: >> Basically its tells the workflow. mtlb kaunsa task kb hoga.
+Schedule: Tells the airflow to trigger the tasks at a particular day or time.
+
+Practical:
+aiops pipeline.py 
+4 tasks:
+a) data collection
+b) Processing the metrics
+c) Anomaly detection
+d) saving the results
+
+Practical 2:(using sleep, Exception, retry, retry delays)
+1) checking the server
+2) collect metrics
+3) analyze
+4) generating the report

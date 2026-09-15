@@ -1,0 +1,37 @@
+Generative ai
+llms
+Evolution of Generative ai: 1) Research Phase
+2) Bedrock Model bedrock Phase
+3) Provider Phase --> API Keys
+4) Application Developer  -> WHERE WE ARE NOW!!!!
+
+
+GENERATIVE ai USAGE HAS 2 PERSPECTIVES:
+1) User PERSPECTIVE
+2) Builder Perspective
+
+LANGCHAIN:Its a framework which helps you to interact with the llms model or to use them.
+Components of Langchain:
+1) Models: ---> Done
+3 types:
+a)ChatModel: Used for text related work-----> Done
+b)EmbeddingModel : converts your text or sentences into embeddings
+c)Multi-Models
+2) Prompt: Its basically how you are interacting with the model
+4 types of prompts:
+a) Simple Prompt ---> directly asking the model using the prompts
+b) System+User Prompt ---> Defining what is the message by defining which message is whose.
+c) Prompt template --> writting the prompt in advance so that user can write once.
+d) StructuredOutput/ Structured Prompt ---> giving the output in a particular format.
+
+
+
+Parameters that are commonly used while making a model:
+1. temperature: range 0 to 1 
+    1--> for creative answers   
+    near to 0 --> for reasoning model 
+
+2. max_token: used to limit the output of the model to save the cost.
+
+
+HUGGINGFACE:

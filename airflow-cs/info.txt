@@ -1,0 +1,35 @@
+apache kafka ----> DONE
+
+Apache Airflow---> Airflow tells that which task has to be done before and what task has to be done afterwards.
+example---> Pizza
+ORDER ---> Dough ---> sauces ---> toppings ---> type of cheese --> oven ---> RECIEVING
+
+Apache Kafka v/s Apache Airflow
+
+manages the stream of events ---------- Orchestration is done
+works on windows ---------------------- works on linux
+
+Important thing in Airflow:
+DAG (Directed Acyclic Graph)
+A ----->B instead A <---------> B
+
+Architecture of Airflow:
+1) DAG ---> tells you the workflow AND THE DEPENDENCY
+2) task ---> unit of work 
+3) Scheduler --> basically schedules a work
+4) Executor --> executes the things
+5) Web ui --> basically tells you what is happening RN?
+
+PRACTICAL
+AIRFLOW ---> WSL
+
+PRACTICAL 2:
+collection of metric --> processing of metric ---> anomaly detection ---> saving of data
+DAG
+
+Operator : pythonoperator, bashoperator
+
+3 topics are left:
+1) retries: 
+2) retry delay: 
+3) exception

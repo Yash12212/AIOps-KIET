@@ -1,0 +1,23 @@
+Kafka --> Airflow ----> Done
+Spark ---> 
+1) Its basically used for processing of your data.
+2) Its a distributed system.
+1 million logs ===> distributed system
+
+    1 million logs
+            |
+            system 1    system 2  system 3
+
+
+Pandas    ------>   Spark
+Size - fixed size     huge size
+simple                 we have to follow some infrastructure
+works only on 1 system      multiple system
+
+
+
+Usage in aiops system:
+
+Kafka ---> Server metric --> Spark ---> Process----> Anomaly detection
+
+Airflow determines the workflow or orchestrate the tasks.

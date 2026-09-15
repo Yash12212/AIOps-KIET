@@ -1,0 +1,25 @@
+Generative AI
+LLMS
+
+Evolution of Generative AI:
+1) Research Phase: Research papers were written
+2) Bedrock Models/Bedrock Phase: basic models were made using the research papers.
+3) Providers: openai , meta, google, mistral . bid companies came to make the llms.
+4) Application Developers: WHERE WE LIE!!!!!
+
+2 TYPbES OF PERSPECTIVES:
+a) User PERSPECTIVE ---> we are basically using the api keys and minding our own business.
+b) Builders PERSPECTIVE  -----> to make llms
+
+Langchain: Its a framework which is used as a interactor which helps in using the llm models in our appliccations.
+
+Components in Langchain:
+1. Models: 
+There are 3 types of models:
+a) Chat Models
+b) Embedding models
+c) Multi models
+
+parameters mostly used while making models:
+1) temperature - range is b/w 0 to 1
+2) max_token - t osave the token cost.

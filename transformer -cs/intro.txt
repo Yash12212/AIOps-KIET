@@ -1,0 +1,20 @@
+Transformers
+
+NLP:
+-Full form Natural language processing
+-the basic working is that nlp gives the machine power or we explicitly provide the power to the machine such that machine is able to understand and in return interact with human in there own language.
+
+NLP task:
+1) Classification:
+working:
+
+    Textual input --> MODEL -->giving output in one form
+
+Example: sentiment analysis, language detection, review analyzer, topic modelling.
+
+DATA SOURCE: twitter, amazon,flipkart etc.
+EVALUATION Metrics: 
+1) Accuracy: how many % predicted output are correct?
+2) Precision: how many % predicted postives are correct?
+3) Recall: how many % actual positives are correct?
+4) F1 score: considers precision and Recall

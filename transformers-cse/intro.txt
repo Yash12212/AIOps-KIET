@@ -1,0 +1,25 @@
+Introduction to Transformers
+
+NLP
+Full form --> Natural language processing
+The basic work or task of nlp is to make the machine learn or give the explicit capabilities to the machine so that the machine can interact and generate something.
+
+NLP task:
+1) Classification: 
+working: 
+
+        textual data --> MODEL ---> single output
+
+example: 
+1)Sentiment analysis: positive, negative, neutral
+2)Review Analysis: determining the genre 
+3)Topic Modelling: defining the course that the text is related to.
+4)language detection.
+
+SENTIMENT ANALYSIS:
+SOURCES: amazon, flipkart, reddit, facebook, X etc.
+EVALUATION METRICS: 
+1)Accuracy: % of the predictions that the model has done which is correct.
+2)Precision: % of the predictions that the model has predicted true are correct?
+3)Recall: % of predictions that were told true and were actually true.
+4)F1-Score: is used in imbalanced data 
